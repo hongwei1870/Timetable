@@ -1,0 +1,34 @@
+/*temp css部分，做案例临时测试使用，最后是要删除的*/
+
+/* 颜色临时类*/
+.r{background: red;}
+.g{background: green;}
+.b{background: blue;}
+.y{background: yellow;}
+
+/* 高度临时类*/
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+.h400{height:400px;}
+.h500{height:500px;}
+.h600{height:600px;}
+
+/* 边框临时类 */
+.bdr{outline:1px solid red;}
+.bdb{outline:1px solid blue;}
+.bdg{outline:1px solid green;}
+
+/* 浮动临时类 */
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+
+/* 边距临时类 */
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.out *,out{
+	outline:1px solid red;
+}

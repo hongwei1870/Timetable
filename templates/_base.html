@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/reset.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/grid.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/temp.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/base.css')}}">
+    {% block style %}{% endblock %}
+    {% endblock %}
+</head>
+<body>
+    <div class="container">
+        <div class="g12 top">
+            {% block top %}{% endblock %}
+        </div>
+        <div class="g12 content">
+            <div class="g2 cgl"><h1></h1></div>
+            <div>
+                {% block content %}{% endblock %}
+            </div>
+            <div class="g2 cgr"><h1></h1></div>
+        </div>
+        <div class="g12 footer">
+            &copy;2018, A website by Wei
+        </div>
+    </div>
+</body>
+</html>
